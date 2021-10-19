@@ -48,6 +48,7 @@ const deleteNote = (id) =>
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
+      'Accept': 'application/json',
     },
   });
 
